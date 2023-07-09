@@ -1,0 +1,22 @@
+@keyframes enterMode {
+    from{transform: scale(.6);}
+    to{transform: scale(1.8);}
+}
+
+@keyframes enterTitre {
+    from{
+        transform: translate(25%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+@keyframes enterParagraphe {
+    from{
+        transform: translate(-30%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
